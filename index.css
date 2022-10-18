@@ -1,0 +1,307 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.container{
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+}
+
+.container .header{
+  width: 100%;
+  min-height: 50px;
+  /* border: 2px solid #000; */
+  padding: 10px 40px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.container .header .logo{
+  width: 10%;
+  min-height: 50px;
+  /* border: 2px solid #000; */
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container .header .nav{
+  width: 70%;
+  min-height: 50px;
+  /* border: 2px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 250px;
+}
+
+.container .header .logo img{
+  width: 100%;
+}
+
+.container .header .nav ul{
+   list-style: none;
+   width: 100%;
+   padding: 10px;
+}
+
+.container .header .nav ul li{
+   display: inline-block;
+   width: 15%;
+   min-height: 30px;
+   /* border: 2px solid #000; */
+   margin: 2px;
+   text-align: center;
+   font-size: 18px;
+   padding: 5px;
+
+   
+}
+
+
+.container .header .nav ul li.demo{
+   background-color: #0354B2;
+   /* padding:3%; */
+   padding-right: 3%;
+   padding-left: 3%;
+   padding-top: 2%;
+   padding-bottom: 5%;
+   font-size: 0.9em;
+   width: 16%;
+   border-radius: 15px;
+   height: 45px;
+
+}
+
+.container .header .nav ul li.demo a{
+  color: #fff;
+}
+
+.container .header .nav ul li a{
+   text-decoration: none;
+   color: #0354B2;
+}
+
+
+/* intro sectoion */
+.container .intro{
+  width: 100%;
+  min-height: 600px;
+  /* border: 2px solid #000; */
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.container .intro .box{
+  width: 45%;
+  min-height: 300px;
+  /* border: 2px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  padding:20px;
+
+}
+
+.container .intro .box img{
+   width: 100%;
+}
+
+.container .intro .box h1{
+   color: #0354B2;
+   font-weight: bolder;
+
+}
+
+.container .intro .box p{
+  color:#777778;
+  padding-top: 10px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.container .intro .box a{
+  color: #fff;
+  background-color: #0354B2;
+  display: block;
+  width: 30%;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top:5px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+/* download section */
+
+.container .download{
+  width: 80%;
+  min-height: 150px;
+  /* border: 2px solid #000; */
+  background-color: #fff;
+  position: absolute;
+  padding:30px;
+  top:750px;
+  left: 150px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container .download .image{
+  width: 100px;
+  min-height: 100px;
+  /* border: 2px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  margin:1px;
+}
+
+.container .download .image img{
+   width: 100%;
+}
+
+.container .download h1{
+  width: 70%;
+  min-height: 100px;
+  /* border: 2px solid #000; */
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  padding:10px 20px;
+  margin:1px;
+  color: #0354B2;
+}
+
+.container .download a{
+  width: 20%;
+  min-height: 50px;
+  border: 3px solid #0354B2;
+  display: inline-block;
+  vertical-align: top;
+  margin:1px;
+  margin-top: 30px;
+  padding:10px 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.container .download a:hover{
+  color: #fff;
+  background-color: #0354B2;
+}
+
+
+/* brands section */
+.container .brands{
+  width: 100%;
+  /* border: 2px solid #000; */
+  /* background-color: red; */
+  min-height: 300px;
+  padding: 20px;
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.container .brands h1{
+  width: 70%;
+  min-height: 40px;
+  /* border: 2px solid #000; */
+  margin: 2px auto;
+  background-color: #fff;
+  margin-bottom: 30px;
+  color: #0354B2;
+  font-size: 30px;
+}
+
+.container .brands .box{
+  width: 10%;
+  height: 150px;
+  /* border: 2px solid #000; */
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+}
+
+.container .brands .box img{
+   object-fit: contain;
+   width: 100px;
+   height: 100px;
+
+
+}
+
+/* info section */
+.container .info{
+  width: 100%;
+  min-height: 200px;
+  background-color: #0354B2;
+  padding:30px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+
+/* message section */
+.container .message{
+  width: 100%;
+  min-height: 400px;
+  padding: 20px;
+  /* background-color: purple; */
+  text-align: center;
+  padding-top: 100px;
+}
+
+.container .message.grey{
+  background-color: #F3FAFD;
+}
+
+.container .message .box{
+  width: 45%;
+  min-height: 300px;
+  display: inline-block;
+  vertical-align: top;
+  /* border: 2px solid #000; */
+  /* background-color: #fff; */
+  margin: 15px;
+  padding:15px 10px;
+  text-align: left;
+}
+
+.container .message .box img{
+  width: 100%;
+}
+
+.container .message .box span{
+  color: #0354B2;
+}
+
+.container .message .box h1{
+  color: #0354B2;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+.container .message .box p{
+  color: #777778;
+  font-size: 18px;
+  margin: 10px 0px;
+  line-height: 30px;
+}
+
+.container .message .box a{
+  color: #0354B2;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px;
+}
